@@ -23,7 +23,28 @@
         android:theme="@style/Theme.PCBuilder"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MyViews.PurchasedView"
+            android:exported="false" />
+        <activity
+            android:name=".MyViews.EditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyViews.ItemDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MyViews.homeScreen"
+            android:exported="true" />
+        <activity
+            android:name=".MyViews.AddItem"
+            android:exported="false" />
+        <activity
+            android:name=".MyViews.customListView"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAndRegister.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +52,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginAndRegister.Register"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

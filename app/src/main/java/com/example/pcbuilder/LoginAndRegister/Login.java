@@ -50,7 +50,7 @@ public class Login extends AppCompatActivity {
         logPass=findViewById(R.id.editPpass);
         logemail=findViewById(R.id.editTText);
         logBtn=findViewById(R.id.btnLogin);
-        registerTextView=findViewById(R.id.goToRegister);
+        registerTextView=findViewById(R.id.already);
 
         mAuth=FirebaseAuth.getInstance();
         logBtn.setOnClickListener(new View.OnClickListener() {

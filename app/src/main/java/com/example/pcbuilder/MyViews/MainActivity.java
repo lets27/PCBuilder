@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
 
         List<Contacts> items = new ArrayList<Contacts>();
-        items.add(new Contacts("John wick","john.wick@email.com",R.drawable.snapp));
-        items.add(new Contacts("Robert j","robert.j@email.com",R.drawable.snapp));
-        items.add(new Contacts("James Gunn","james.gunn@email.com",R.drawable.snapp));
+        items.add(new Contacts("John wick","john.wick@email.com",R.drawable.backicon));
+        items.add(new Contacts("Robert j","robert.j@email.com",R.drawable.backicon));
+        items.add(new Contacts("James Gunn","james.gunn@email.com",R.drawable.backicon));
 
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

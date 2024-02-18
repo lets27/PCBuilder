@@ -27,13 +27,13 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
-        contactsCard.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Dashboard.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
+//        contactsCard.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(Dashboard.this, MainActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
     }
 }

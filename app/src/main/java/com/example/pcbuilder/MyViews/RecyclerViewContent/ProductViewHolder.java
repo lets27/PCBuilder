@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.brandnewsuitecase.R;
+import com.example.pcbuilder.R;
 
 public class ProductViewHolder extends RecyclerView.ViewHolder {
 

@@ -58,7 +58,7 @@ public class homeScreen extends AppCompatActivity {
         GridLayoutManager gridLayoutManager = new GridLayoutManager(homeScreen.this, 1);
         recyclerView.setLayoutManager(gridLayoutManager);
 
-        // Initialzing the adapter and set it to the RecyclerViewr
+        // Initialzing the adapter and set it to the RecyclerView
         recyclerView.setAdapter(adapter);
 
         // Set up swipe-to-delete functionality with ItemTouchHelper
@@ -126,12 +126,12 @@ public class homeScreen extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-
-        if (valueEventListener != null) {
-            databaseReference.removeEventListener(valueEventListener);
-        }
-    }
+//    @Override
+//    protected void onDestroy() {
+//        super.onDestroy();
+//
+//        if (valueEventListener != null) {
+//            databaseReference.removeEventListener(valueEventListener);
+//        }
+//    }
 }

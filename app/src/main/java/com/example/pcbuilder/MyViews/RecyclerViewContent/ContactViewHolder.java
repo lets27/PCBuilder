@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.brandnewsuitecase.R;
+import com.example.pcbuilder.R;
 
 public class ContactViewHolder extends RecyclerView.ViewHolder{
 

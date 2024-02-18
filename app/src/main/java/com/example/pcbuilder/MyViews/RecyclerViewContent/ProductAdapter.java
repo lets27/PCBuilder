@@ -11,10 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.brandnewsuitecase.Models.Product;
-import com.example.brandnewsuitecase.MyViews.EditActivity;
-import com.example.brandnewsuitecase.MyViews.ItemDetails;
-import com.example.brandnewsuitecase.R;
+import com.example.pcbuilder.Models.Product;
+import com.example.pcbuilder.MyViews.EditActivity;
+import com.example.pcbuilder.MyViews.ItemDetails;
+import com.example.pcbuilder.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;

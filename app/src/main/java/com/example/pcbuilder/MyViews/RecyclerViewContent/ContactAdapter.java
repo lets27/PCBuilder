@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.brandnewsuitecase.Models.Contacts;
-import com.example.brandnewsuitecase.R;
+import com.example.pcbuilder.Models.Contacts;
+import com.example.pcbuilder.R;
 
 import java.util.List;
 
